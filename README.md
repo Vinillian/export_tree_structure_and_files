@@ -1,5 +1,4 @@
-
-````markdown
+```markdown
 # export_tree_structure_and_files
 
 Python script to export folder structure and file contents to a text file.  
@@ -18,21 +17,22 @@ It works with any folder and records both the tree of folders/files and the cont
 1. Make sure you have Python 3 installed.
 2. Clone the repository or download the script.
 
-```bash
+```
 git clone https://github.com/Vinillian/export_tree_structure_and_files.git
 cd export_tree_structure_and_files
-````
+```
 
 ## Usage
 
 Run the script in your project directory:
 
-```bash
+```
 python export_tree_structure_and_files.py
 ```
 
-* The script will generate a text file with the folder structure and file contents.
-* Example output:
+The script will generate a text file with the folder structure and file contents.
+
+### Example output:
 
 ```
 Folder: lib
@@ -54,9 +54,13 @@ void main() {
 }
 ```
 
+## Attribution
+
+This project uses the "Folder Tree" icon provided by Icons8:  
+[https://icons8.com/icon/49846/folder-tree](https://icons8.com/icon/49846/folder-tree)
+
 ## License
 
-This project is open-source under MIT License.
-
+This project is open-source under the MIT License. See the LICENSE file for details.
 ```
 

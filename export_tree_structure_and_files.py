@@ -1,3 +1,12 @@
+"""
+Project Tree Exporter
+
+Uses the "Folder Tree" icon provided by Icons8:
+https://icons8.com/icon/49846/folder-tree
+
+This icon is licensed for free use with attribution.
+"""
+
 import os
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
@@ -154,6 +163,8 @@ def bind_standard_shortcuts(widget):
 root = tk.Tk()
 root.title("Project Tree Exporter")
 root.geometry("1000x600")
+root.iconbitmap(r'C:\Users\user\PycharmProjects\export_tree_structure_and_files\icons8-дерево-папок-40.ico')
+
 
 main_frame = tk.Frame(root)
 main_frame.pack(fill="both", expand=True, padx=10, pady=10)
